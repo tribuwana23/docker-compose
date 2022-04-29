@@ -8,6 +8,7 @@ services:
   app:
     container_name: portainer
     image: 'portainer/portainer-ce:latest'
+    restart: always
     ports:
       - '9000:9000'
       - '9443:9443'
