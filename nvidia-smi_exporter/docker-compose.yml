@@ -1,5 +1,5 @@
 ---
-version: '3'
+version: '2.3'
 services:
   nvidia_smi_exporter: #To export data from nvidia-smi, needs nvidia-smi and nvidia-container-toolkit installed on host.
     image: utkuozdemir/nvidia_gpu_exporter:0.3.0
