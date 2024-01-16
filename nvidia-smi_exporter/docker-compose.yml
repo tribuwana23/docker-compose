@@ -14,6 +14,6 @@ services:
       - /usr/bin/nvidia-smi:/usr/bin/nvidia-smi
       - /usr/lib/x86_64-linux-gnu/libnvidia-ml.so:/usr/lib/x86_64-linux-gnu/libnvidia-ml.so
       - /usr/lib/x86_64-linux-gnu/libnvidia-ml.so.1:/usr/lib/x86_64-linux-gnu/libnvidia-ml.so.1
-    restart: unless-stopped
+    #restart: unless-stopped
 
 #Mount points for volume work on Ubuntu 20.04
